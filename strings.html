@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <p>Strings in JS</p>
+    </div>
+    <script>
+        let name = "John Doe"
+        console.log(name.length)//8
+
+        console.log(name[3])
+
+        let f_name = "Mike "
+        let l_name = "Kariuki"
+        let full_name = f_name + " " + l_name
+        console.log(full_name)
+
+        let full_name2 = f_name.concat(l_name)
+        console.log(full_name2)
+
+        let age = 26
+        console.log(`Mike's age is ${age}`)
+
+        let str = "My cat died today"
+        let sliced_str = str.slice(3,11)
+        console.log(sliced_str) //cat died
+
+        console.log(str.toUpperCase())//MY CAT DIED TODAY
+        console.log(str.toLowerCase())//my cat died today
+
+
+        let value = "     this is a random         string     "
+        console.log(value.length)
+        console.log(value.trim().length) 
+
+        let x = "JavaScript-Second-Class"
+        console.log(x.split('-')) //['JavaScript', 'Second', 'Class']
+        console.log(x.split(''))
+
+       //  ['J', 'a', 'v', 'a', 'S', 'c', 'r', 'i', 'p', 't', '-', 'S', 'e', 'c', 'o', 'n', 'd', '-', 'C', 'l', 'a', 's', 's']
+
+       let number = 23
+       number++
+       number++
+       number++
+       number--
+       number--
+       console.log(number)
+
+
+    </script>
+</body>
+</html>
