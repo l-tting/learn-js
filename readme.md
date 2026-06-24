@@ -115,3 +115,58 @@ console.log() -> outputs in the console window
 5.endsWith()
 6. Task on slide 56
 
+
+*CONDITIONAL STATEMENTS IN JS*
+-> They enable a program to make decisions based on some predefined condition
+-> We have the following types of conditional statements:
+1.if statements -> uses the if key word
+2.ternary operator  -> ?
+     -> a simpler way of writing simple if-else statements
+     -> only used when there is one condition
+
+
+let variable = condition ? what happens if true : what happens if not true
+
+*syntax of if *
+if(condition){
+   // what happens if condition is true / met
+}else{
+   // what happens if condition is not met
+}
+
+if(condition 1){
+   // what happens if condition 1 is met
+}else if( condition 2){
+   // what happens if condition 2 is met
+}else if( condition 3){
+   // what happens if condition 3 is met
+}else{
+   // what happens if all conditions are not met
+}
+
+*prompt()* -> used to take user input 
+    -> Any data coming from user input is always a string
+
+*task on slide 69*
+
+
+*DATA STRUCTURES*
+-> We have 2 data structures:
+1.Array
+2.Object
+
+*Arrays*
+-> A data structure that can hold multiple values of any data type 
+-> JS arrays are the equivalent of Python lists 
+
+*properties of arrays*
+1.Can hold multiple values of any data type
+2.They are ordered - use indexing to access values
+3.They are mutable - can be changed / altered
+4.JS arrays dont support -ve indexing by default
+
+*Array methods*
+1.Create an array -> use []
+2.Accessing array values -> use indexing
+       -> by default -ve indexing isnt supported unless
+       when using the at() method
