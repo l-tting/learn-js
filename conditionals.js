@@ -37,3 +37,12 @@ if ((num1 > num2) && (num1 > num3)){
 
 
 
+let value1 = Number(prompt("Enter a value"))
+let value2 = Number(prompt("Enter a value"))
+
+
+if((value1>=10 && value1 <=20) && (value2 > 100)){
+    console.log("Conditions met")
+}else{
+    console.log("Conditions not met")
+}

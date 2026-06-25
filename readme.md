@@ -170,3 +170,49 @@ if(condition 1){
 2.Accessing array values -> use indexing
        -> by default -ve indexing isnt supported unless
        when using the at() method
+3.determine no of values in an array -> length
+4.slice() - extracts a portion of an array slice(start,end)
+5.adding items in array
+      ->push() - adds values at the end of an array
+      ->unshift() - adds values at the begining of an array
+6.removing items from an array
+      -> pop() -> removes the last item
+      -> shift() - removes the first item
+7.splice() -> adds , removes or replaces depending on the arguments passed
+           -> splice(start, delete count , items to add)
+8.includes() - checks whether an element is contained in an array and returna boolean
+9.reverse() -> reverses the order of an array
+10.sort() - sorts arrays in alphabetical order evaluating them as strings
+
+
+*OBJECTS*
+-> are data structures that store data in key-value pairs
+-> They are the equivalent of Python dictionaries
+
+*Properties of Objects*
+1.Stores data in key value pairs
+2.Keys are used to access the values
+3.Keys are unique
+4.Keys are of string type
+5.Values can be of any data type
+
+-> represented using { }
+-> properties in keys are comma-separated
+
+property => key + value
+
+*accessing values in objects*
+1.Dot notation -> uses .
+         -> used when the key follows identifier naming rules
+2.Bracket notation -> uses []
+         -> used regardless of whether keys follow variable naming rules or not
+
+*Object Methods*
+1.Adding new properties - use bracket or dot notation
+2.Object.keys() - returns all your keys in an array
+3.Object.values() - returns all your values in an array
+4.Object.entries() -> returns key-value pairs in arrays
+
+*Task*
+1.Arrays -slide 72 & 73
+2.Objects - slide 78 & 79
