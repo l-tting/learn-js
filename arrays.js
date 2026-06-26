@@ -44,3 +44,6 @@ console.log(reversed) //(11) [1000, 34.78, true, 'C++', 'Java', 'six', 'five', 
 let new_arr = [1,100,3,20,123]
 console.log(new_arr.sort()) //(5) [1, 100, 123, 20, 3]
 
+let array = ['a','b','c']
+let str = array.join('') //abc
+console.log(str)//a-b-c

@@ -64,6 +64,7 @@ console.log() -> outputs in the console window
 
 
 
+
 *OPERATORS IN JS*
 1.Logical Operators
   logical and -> && - returns true only if all conditions are true
@@ -183,7 +184,7 @@ if(condition 1){
 8.includes() - checks whether an element is contained in an array and returna boolean
 9.reverse() -> reverses the order of an array
 10.sort() - sorts arrays in alphabetical order evaluating them as strings
-
+11.join() - combines array elements into a string
 
 *OBJECTS*
 -> are data structures that store data in key-value pairs
@@ -216,3 +217,44 @@ property => key + value
 *Task*
 1.Arrays -slide 72 & 73
 2.Objects - slide 78 & 79
+
+
+Assignment 2: Extract Subarray
+Given an array “sourceArray”, extract a subarray “extractedArray” from index 2 to index 4 using the .slice() method. Then, modify the extractedArray by replacing its elements with 'x', 'y', and 'z' using the .splice() method. Finally, display both the sourceArray and the modified extractedArray.
+
+
+5. Reverse 987 to 789 without using an inbuilt -method or Assigning 789 manually.
+my_arr= [23, “Jane”, 560, [“Lesson”, “Maths”, {“currency” : “KES”}], 987, 76,”John”]
+Displa
+
+
+
+*LOOPS*
+-> A block of code that executes repeatedly as long as a specified condition is met
+-> eliminate redundancy in code 
+*Types of Loops*
+1.for loop - used when we know the no of iterations
+2.while loop - loops as long as the condition is met
+
+*for loop syntax*
+for(initialization; condition; update){
+    //block of code to be executed repeatedly
+}
+
+*initialization* - defines the starting point of your loop
+*condition* - specifies the condition to be met
+       -> as long the condition is met , the loop keeps executing
+*update* -> increment / decrement after each iteration / loop (++ / --)
+
+
+*Nested Loops*
+-> A loop within a loop
+-> for each iteration of the outer loop, the inner loop must execute exhaustively
+before going back to the outer loop
+
+
+*task on loops*
+1.slide 82
+2.Write a program that calculates the total stock in a company from the array/list below if we know that the stock is the last digit in every array/list.
+let prods = [[‘omo’,’30kshs’,’300’], [‘milk’,’50kshs’,’200’],[‘bread’,’45kshs’,’359’], [‘coffee’,’5kshs’,’79’]]
+
