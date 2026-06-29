@@ -258,3 +258,64 @@ before going back to the outer loop
 2.Write a program that calculates the total stock in a company from the array/list below if we know that the stock is the last digit in every array/list.
 let prods = [[‘omo’,’30kshs’,’300’], [‘milk’,’50kshs’,’200’],[‘bread’,’45kshs’,’359’], [‘coffee’,’5kshs’,’79’]]
 
+
+Using the link HERE , copy the array of JSON objects containing countries with their populations. Display in an object showing how many countries have population between 0 - 50m, 51m - 100m, > 100m as the keys
+e.g pops = { “0-50m” : 216, “51-100m” : 16, ” >100m” : 13 }
+
+
+*while loops*
+-> Only concerns its iteration scheme with the condition specified
+-> uses the while keyword
+
+
+
+*FUNCTIONS*
+-> A reusable block of code meant to execute a specific task
+
+*why use functions?*
+1.Reusability - use parameters
+2.Modularity
+3.Code organization & Maintainability
+4.Better debugging
+5.Better scaling
+
+*Syntax of a function in JS*
+function function_name(){
+   //block of code
+}
+
+*Parts of a function*
+1.Function definition -> function keyword + function name + possible parameters
+       e.g *function add_numbers()*, *function add_numbers(x,y)*
+2.Function body -> the block of code to be executed by the function
+     e.g. function add_numbers(x,y){
+             return x + y ---> *function body*
+     }
+3.Function call -> calling a function by its name so that it executes its task
+        e.g add_numbers()
+
+*types of functions*
+1.Inbuilt functions - come with the programming language and have fixed purposes
+        e.g. console.log(), typeof(),
+2.User-defined functions -> custom functions created by a programmer for custom purposes
+        e.g. add_numbers(), get_user(), find_grade()
+
+
+*Global vs Local Scope*
+*scope* -> determines where a variable is accessible in a program
+*Global scope* -> contains global variables and data which are accessible in the 
+entire program
+*Local scope* -> contains local variables and data which are only accessible in their 
+defined scope / block
+
+*Parameters vs Arguments*
+*parameter* - a placeholder value / variable used in place of real values to make functions reusable -> passed in function definition
+*argument* - a real value passed in place of parameters when calling a function
+
+*N/B* -> The order and number of parameters matches the no and order of arguments
+
+
+
+*Functions Task*
+on slide 83 -> intermediate questions
+do the following: 1,2,4,7 -> using functions

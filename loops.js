@@ -60,3 +60,13 @@ for(let i=1; i <= 10; i++){
 1,8
 2,2
 2,3
+
+//summing numbers from 1 to 10
+let sum = 0
+let i = 1
+while (i <= 10){
+    sum +=i
+    i++
+}
+console.log(sum)
+let x = 5
