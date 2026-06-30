@@ -274,7 +274,7 @@ e.g pops = { “0-50m” : 216, “51-100m” : 16, ” >100m” : 13 }
 
 *why use functions?*
 1.Reusability - use parameters
-2.Modularity
+2.Modularity - breaking a large code base into smaller parts
 3.Code organization & Maintainability
 4.Better debugging
 5.Better scaling
@@ -319,3 +319,14 @@ defined scope / block
 *Functions Task*
 on slide 83 -> intermediate questions
 do the following: 1,2,4,7 -> using functions
+
+*return* -> returns the intended result and signifies the end of a function
+*arrow functions*
+-> a shorter way of writing function expressions
+
+
+*task on functions*
+Create a new folder called MyTax and create 2 files ; 
+1.index.html
+2.tax.js
+-> link the two files and do question 15 -20 in the link on slide 83 using functions
